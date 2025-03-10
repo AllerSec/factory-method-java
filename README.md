@@ -2,9 +2,6 @@
 
 > **Una implementación del patrón Factory Method en Java, desplegado con Swing, Maven, e integrado en GitHub.**
 
-![Banner](https://via.placeholder.com/800x200?text=Factory+Method+en+Java)  
-*Diseñado en Canva*
-
 ## Descripción
 
 Este proyecto demuestra la implementación del patrón **Factory Method** en Java. El patrón permite crear objetos de forma flexible sin acoplar el código cliente a clases concretas. Se incluyen dos variantes:
