@@ -1,8 +1,6 @@
 package main;
 
-import factory.Dialog;
-import factory.HtmlDialog;
-import factory.WindowsDialog;
+import factory.*;
 
 public class Demo {
     private static Dialog dialog;
@@ -13,8 +11,12 @@ public class Demo {
     }
 
     static void configure() {
-        // Forzar el uso de WindowsDialog para ejecutar la interfaz gráfica Swing
-        dialog = new WindowsDialog();
+        // Seleccionar el diálogo que deseas probar
+        //dialog = new WindowsDialog(); // Cambia esto para probar otros diálogos
+        //dialog = new HtmlDialog();
+        dialog = new CustomActionDialog();
+        // dialog = new StyledDialog();
+        // dialog = new ConfirmationDialog();
     }
 
     static void runBusinessLogic() {
